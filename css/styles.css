@@ -1,24 +1,30 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, serif;
+  line-height: 150%;
 }
 
 a {
   text-decoration: none;
+  border-bottom: 1px solid #135a6e;
   color: #135a6e;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  transition: all .25s;
 }
 
 a:hover {
   background-color: #eef2dc;
+  border: none;
 }
 
 .title-container {
   padding: 1em;
   border-bottom: 1px dotted #135a6e;
   text-align: center;
-  background-color: #eef2dc;
+  opacity: 0;
 }
 
 .title {
@@ -32,10 +38,9 @@ a:hover {
 }
 
 .content-container {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
   padding: 1em;
-  font-size: 14px;
 }
 
 .section-title {
