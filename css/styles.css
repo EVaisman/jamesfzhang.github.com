@@ -41,6 +41,7 @@ a:hover {
   width: 700px;
   margin: 0 auto;
   padding: 1em;
+  opacity: 0;
 }
 
 .section-title {
