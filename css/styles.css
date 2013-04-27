@@ -5,21 +5,24 @@ body {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   line-height: 150%;
+  vertical-align: baseline;
   background-color: #f0f1eb;
-  color: rgba(111, 106, 70, 1.0);
+  color: rgba(111, 106, 70, 1);
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #2980b9;
   -webkit-transition: all .25s;
-  -moz-transition: all .25s;
-  transition: all .25s;
+     -moz-transition: all .25s;
+          transition: all .25s;
 }
 
 a:hover {
-  color: rgba(111, 106, 70, 1.0);
-  border-bottom: 1px dotted rgba(111, 106, 70, 1.0);
+  color: rgba(111, 106, 70, 1);
+  border-bottom: 1px dotted rgba(111, 106, 70, 1);
 }
 
 .title-container {
