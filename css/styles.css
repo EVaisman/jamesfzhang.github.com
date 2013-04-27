@@ -1,40 +1,44 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 100%;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
   line-height: 150%;
 }
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid #135a6e;
-  color: #135a6e;
+  border-bottom: 1px solid #2980b9;
+  color: #2980b9;
   -webkit-transition: all .25s;
   -moz-transition: all .25s;
   transition: all .25s;
 }
 
 a:hover {
-  background-color: #eef2dc;
+  background-color: #ecf0f1;
   border: none;
 }
 
 .title-container {
   padding: 1em;
-  border-bottom: 1px dotted #135a6e;
+  border-bottom: 1px dotted #2980b9;
   text-align: center;
   opacity: 0;
 }
 
 .title {
   font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  color: #135a6e;
+  color: #2980b9;
 }
 
 .subtitle {
   font-style: italic;
+  font-family: 'Merriweather', serif;
+  padding-top: 1em;
 }
 
 .content-container {
@@ -46,7 +50,9 @@ a:hover {
 
 .section-title {
   font-size: 1.25em;
-  border-bottom: 1px solid #135a6e;
+  font-family: 'Open Sans', sans-serif;
+  color: #95a5a6;
+  border-bottom: 1px solid #95a5a6;
 }
 
 ul.interest-list {
