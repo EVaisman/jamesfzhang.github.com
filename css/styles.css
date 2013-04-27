@@ -9,7 +9,7 @@ body {
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid #2980b9;
+  border-bottom: 1px solid #95a5a6;
   color: #2980b9;
   -webkit-transition: all .25s;
   -moz-transition: all .25s;
@@ -23,7 +23,7 @@ a:hover {
 
 .title-container {
   padding: 1em;
-  border-bottom: 1px dotted #2980b9;
+  border-bottom: 1px dotted #95a5a6;
   text-align: center;
   opacity: 0;
 }
@@ -36,30 +36,31 @@ a:hover {
 }
 
 .subtitle {
+  padding-top: 1em;
   font-style: italic;
   font-family: 'Merriweather', serif;
-  padding-top: 1em;
 }
 
 .content-container {
-  width: 700px;
-  margin: 0 auto;
   padding: 1em;
+  margin: 0 auto;
+  width: 700px;
   opacity: 0;
 }
 
 .section-title {
+  border-bottom: 1px dotted #95a5a6;
   font-size: 1.25em;
   font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
   color: #95a5a6;
-  border-bottom: 1px solid #95a5a6;
 }
 
 ul.interest-list {
-  list-style-type: none;
   padding: 0em;
+  list-style-type: none;
 }
 
 span.interest-title {
-  font-weight: bold;
+  font-style: italic;
 }
