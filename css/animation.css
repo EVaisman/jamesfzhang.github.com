@@ -1,4 +1,4 @@
-.title-container, .content-container {
+/*.title-container, .content-container {
   -webkit-animation: fadein .6s .5s 1 forwards ease-in-out;
      -moz-animation: fadein .6s .5s 1 forwards ease-in-out;
           animation: fadein .6s .5s 1 forwards ease-in-out;
@@ -14,7 +14,7 @@
   -webkit-animation-delay: 1.1s;
      -moz-animation-delay: 1.1s;
           animation-delay: 1.1s;
-}
+}*/
 
 @-webkit-keyframes fadein{
   0%{
