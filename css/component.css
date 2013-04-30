@@ -313,7 +313,7 @@ div.bl-panel-items.bl-panel-items-show nav span {
 	margin: 5px;
 }
 
-div.bl-panel-items nav span.bl-next-work {
+div.bl-panel-items nav span.bl-next-work, span.home-link {
 	font-weight: 700;
 	letter-spacing: 2px;
 	display: block;
@@ -321,6 +321,10 @@ div.bl-panel-items nav span.bl-next-work {
 	line-height: 2em;
 	cursor: pointer;
 	margin-right: 2em;
+}
+
+span.bl-next-work:hover, span.home-link:hover {
+	color: #fff;
 }
 
 div.bl-panel-items.bl-panel-items-show nav {
