@@ -1,3 +1,15 @@
+@media only screen and (max-width: 640px) {
+  .cover-avatar {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 720px) {
+  .cover-avatar {
+    display: none;
+  }
+}
+
 .cover-avatar {
   cursor: pointer;
   position: absolute;
